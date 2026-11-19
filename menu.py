@@ -5,10 +5,10 @@ import numberguessing
 import highlowcardbettinggame
 
 OPTIONS = [
-    ("Play Poker", poker.start),
-    ("Play Number Guessing Game", numberguessing.start),
-    ("Play High-Lo", highlowcardbettinggame.start),
-    ("Exit", None),
+    ("Play Poker: ", poker.start),
+    ("Play Number Guessing Game: ", numberguessing.start),
+    ("Play High-Lo: ", highlowcardbettinggame.start),
+    ("Exit: ", None),
 ]
 def clear_screen():
     print("\033[2J\033[H", end=", flush=True") #ansi code; it clears the screen 
