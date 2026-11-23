@@ -164,7 +164,7 @@ def start():
         print("=" * 40)
 
 
-    def main():
+    def numberguessing():
         print("Welcome to the Number Guessing Bet Game!")
         print("You start with " + str(STARTING_COINS) + " coins.")
         print("Bet coins, then guess a number from 1-" + str(MAX_NUMBER) + " in " + str(MAX_GUESSES) + " tries.")
@@ -193,4 +193,4 @@ def start():
         print("Returning to menu...")
 
 
-    main()
+    numberguessing()

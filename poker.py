@@ -282,7 +282,7 @@ def start():
             print("It's a tie! The pot is split.")
 
 
-    def main():
+    def poker():
         print("Welcome to 5-Card Draw Poker with chips!")
         print("Everyone starts with " + str(STARTING_CHIPS) + " chips. Ante is " + str(ANTE) + ".")
 
@@ -311,4 +311,4 @@ def start():
         print("Returning to menu...")
 
 
-    main()
+    poker()
