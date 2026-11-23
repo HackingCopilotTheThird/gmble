@@ -266,7 +266,7 @@ def start():
         else:
             print("Net result:      -$" + str(-difference))
 
-    def highlowcardbettinggame():
+    def main():
         print("=" * 46)
         print("        HIGH-LOW CARD BETTING GAME")
         print("=" * 46)
@@ -278,4 +278,4 @@ def start():
         play_game()
         print("\nReturning to menu...")
 
-    highlowcardbettinggame()
+    main()
